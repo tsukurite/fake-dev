@@ -20,3 +20,7 @@ $ brew install nginx-full --with-subs-filter-module
 $ cd /path/to/app
 $ nginx -p . -c /path/to/fake-dev.conf
 ```
+
+## License
+
+The MIT license. Please see top of `fake-dev.conf`.
