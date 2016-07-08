@@ -14,11 +14,17 @@ $ brew tap homebrew/nginx
 $ brew install nginx-full --with-subs-filter-module
 ```
 
+download config file:
+
+```console
+$ curl -L https://raw.githubusercontent.com/tsukurite/fake-dev/master/fake-dev.conf -o ~/.fake-dev.conf
+```
+
 ## how to use
 
 ```console
 $ cd /path/to/app
-$ nginx -p . -c /path/to/fake-dev.conf
+$ nginx -p . -c ~/.fake-dev.conf
 ```
 
 ## License
