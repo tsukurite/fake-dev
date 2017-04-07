@@ -22,9 +22,26 @@ $ curl -L https://raw.githubusercontent.com/tsukurite/fake-dev/master/fake-dev.c
 
 ## how to use
 
+execute below:
+
 ```console
 $ cd /path/to/app
 $ nginx -p . -c ~/.fake-dev.conf
+```
+
+press `Ctrl-c` to exit.
+
+## tips
+
+easily execute with `fake-dev` alias:
+
+```console
+$ echo 'alias fake-dev="nginx -p . -c ~/.fake-dev.conf"' >> ~/.bashrc
+```
+
+```console
+$ cd /path/to/app
+$ fake-dev
 ```
 
 ## License
