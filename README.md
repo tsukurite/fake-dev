@@ -1,6 +1,6 @@
 # fake-dev
 
-fake development env on nginx
+fake development environment with nginx
 
 ## requirements
 
