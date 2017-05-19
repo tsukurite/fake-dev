@@ -44,7 +44,7 @@ $ cd /path/to/app
 $ fake-dev
 ```
 
-specify port then execute:
+Start server with specific port:
 ```console
 cat << EOS >> ~/.bashrc
 function fake-dev-port () {
