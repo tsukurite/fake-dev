@@ -44,6 +44,17 @@ $ cd /path/to/app
 $ fake-dev
 ```
 
+Start server with specific port:
+```console
+cat << EOS >> ~/.bashrc
+function fake-dev-port () {
+  sed -e "s/127.0.0.1:8080/127.0.0.1:\$1/g" ~/.fake-dev.conf > ~/.fake-dev.temp.conf
+  nginx -p . -c ~/.fake-dev.temp.conf
+}
+EOS
+```
+
+
 ## License
 
 The MIT license. Please see top of `fake-dev.conf`.
