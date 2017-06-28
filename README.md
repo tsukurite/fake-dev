@@ -22,7 +22,7 @@ $ curl -L https://raw.githubusercontent.com/tsukurite/fake-dev/master/fake-dev.c
 
 ## how to use
 
-execute below:
+execute in `webroot` directory's hierarchy. execute below:
 
 ```console
 $ cd /path/to/app
