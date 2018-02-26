@@ -9,9 +9,8 @@ fake development environment with nginx
 
 install from [Homebrew](http://brew.sh/):
 
+"homebrew/nginx" formulae renamed to "denji/homebrew"
 ```console
-# "homebrew/nginx" formulae renamed to "denji/homebrew"
-# brew tap homebrew/nginx
 $ brew tap denji/nginx
 $ brew install nginx-full --with-subs-filter-module
 ```
