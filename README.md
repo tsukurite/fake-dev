@@ -15,9 +15,8 @@ $ brew tap denji/nginx
 $ brew install nginx-full --with-subs-filter-module
 ```
 
-If the following error occurs ...
+If you get an error "Error: Formulae found in multiple taps:"
 ```console
-# Error: Formulae found in multiple taps:
 $ brew untap homebrew/nginx
 $ brew tap denji/nginx
 $ brew install nginx-full  --with-subs-filter-module
