@@ -10,8 +10,18 @@ fake development environment with nginx
 install from [Homebrew](http://brew.sh/):
 
 ```console
-$ brew tap homebrew/nginx
+# This formulae renamed to "denji/homebrew"
+# brew tap homebrew/nginx
+$ brew tap denji/nginx
 $ brew install nginx-full --with-subs-filter-module
+```
+
+If the following error occurs ...
+```console
+# Error: Formulae found in multiple taps:
+$ brew untap homebrew/nginx
+$ brew tap denji/nginx
+$ brew install nginx-full  --with-subs-filter-module
 ```
 
 download config file:
